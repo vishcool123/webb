@@ -242,3 +242,66 @@ $('#smartcontract').click(function ()
         href: '#messagepop'
     });
 });
+
+$(function () {
+  $("h4[id='modal1']").click(function () {
+      $("#SmartContractDevelopment").modal("show");
+      return false;
+  });
+
+  $("h4[id='modal2']").click(function () {
+    $("#SmartContractAudit").modal("show");
+    return false;
+  });
+
+  $("h4[id='modal3']").click(function () {
+   $("#DAppsDevelopment").modal("show");
+    return false;
+  });
+
+  $("h4[id='modal4']").click(function () {
+    $("#EnterprisesBlockChain").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal5']").click(function () {
+    $("#InitialCoin").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal6']").click(function () {
+    $("#Chatbot").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal7']").click(function () {
+    $("#ImageProcessing").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal8']").click(function () {
+    $("#RecommendationEngine").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal9']").click(function () {
+    $("#AutomationProcess").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal10']").click(function () {
+    $("#NPL").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal11']").click(function () {
+    $("#CognitiveLearning").modal("show");
+     return false;
+   });
+
+   $("h4[id='modal12']").click(function () {
+    $("#MachineLearning").modal("show");
+     return false;
+   });
+
+});

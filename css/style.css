@@ -2083,3 +2083,64 @@ a.selected {
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
+
+
+/* --------Model Css Start----------- */
+
+.services-contents .heading {
+  cursor: pointer;
+}
+
+
+ /* Text alignment for body */ 
+ body { 
+  text-align: center; 
+} 
+
+/* Styling h1 tag */ 
+h1 { 
+  text-align: center; 
+} 
+
+/* Styling modal */ 
+.modal:before { 
+  content: ''; 
+  display: inline-block; 
+  height: 100%; 
+  vertical-align: middle; 
+} 
+
+.modal-dialog { 
+  display: inline-block; 
+  vertical-align: middle; 
+} 
+
+.modal .modal-content { 
+  padding: 20px 20px 20px 20px; 
+  -webkit-animation-name: modal-animation; 
+  -webkit-animation-duration: 0.5s; 
+  animation-name: modal-animation; 
+  animation-duration: 0.5s; 
+} 
+
+@-webkit-keyframes modal-animation { 
+  from { 
+      top: -100px; 
+      opacity: 0; 
+  } 
+  to { 
+      top: 0px; 
+      opacity: 1; 
+  } 
+} 
+
+@keyframes modal-animation { 
+  from { 
+      top: -100px; 
+      opacity: 0; 
+  } 
+  to { 
+      top: 0px; 
+      opacity: 1; 
+  } 
+} 
