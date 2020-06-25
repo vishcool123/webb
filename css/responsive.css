@@ -17,6 +17,13 @@
     font-size: 18px;
     line-height: 28px;
   }
+
+    .modal.fade .modal-dialog {
+    position: relative;
+    bottom: 75% !important;
+    width: auto;
+    margin: 10px;
+  }
 }
 
 /* Tablet desktop :768px. */
@@ -114,6 +121,13 @@
   .search-option input {
     width: 67%;
   }
+
+ /* .modal.fade .modal-dialog {
+    position: relative;
+    bottom: 75% !important;
+    width: auto;
+    margin: 10px;
+  }*/
 }
 
 /* small mobile :320px. */
@@ -269,6 +283,13 @@
   li.threaded-comments {
     margin-left: 0;
   }
+
+ /*   .modal.fade .modal-dialog {
+    position: relative;
+    bottom: 10% !important;
+    width: auto;
+    margin: 10px;
+  }*/
 }
 
 /* Large Mobile :480px. */
@@ -296,4 +317,24 @@
   .tab-menu ul.nav li a {
     padding: 8px 20px;
   }
+
+ /* .modal.fade .modal-dialog {
+    position: relative;
+    bottom: 75% !important;
+    width: auto;
+    margin: 10px;
+  }*/
+}
+
+
+/*@media only screen and (min-width: 360px) {
+  .modal.fade .modal-dialog {
+    position: relative;
+  
+    top: -75% !important;
+    width: auto;
+    margin: 10px;
+  }*/
+
+
 }

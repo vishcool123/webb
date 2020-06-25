@@ -1,4 +1,4 @@
-
+ 
 
 /*-----------------------------------------------------------------------------------
    CSS INDEX
@@ -2144,3 +2144,37 @@ h1 {
       opacity: 1; 
   } 
 } 
+
+@media (max-width: 640px) {
+
+.modal-dialog {
+  display: inline-block; 
+  vertical-align: middle; 
+  position: relative;
+  bottom: 80%;
+  margin: 10px;
+}
+
+  @-webkit-keyframes modal-animation { 
+  from { 
+      top: -100px; 
+      opacity: 0; 
+  } 
+  to { 
+      top: 0px; 
+      opacity: 1; 
+  } 
+} 
+
+@keyframes modal-animation { 
+  from { 
+      top: -100px; 
+      opacity: 0; 
+  } 
+  to { 
+      top: 0px; 
+      opacity: 1; 
+  } 
+} 
+
+}
